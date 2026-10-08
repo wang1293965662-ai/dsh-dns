@@ -1,0 +1,16 @@
+{
+  "name": "dsh-tool-netguard",
+  "version": "1.0.0",
+  "description": "DNS 伪装 / 泄漏检测工具：检测解析器对外归属、用指定解析器或 DoH 解析、把域名钉到指定 IP 再抓页面。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./core": "./lib/dns-core.js"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6",
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}
